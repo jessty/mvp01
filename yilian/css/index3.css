@@ -1,0 +1,95 @@
+.l1 {
+    font-family: "Microsoft YaHei";
+    margin: 0 35px 0 0;
+    font-size: 18px;
+
+}
+
+#line {
+    position: absolute;
+    width: 66px;
+    height: 2px;
+    background: gray;
+    opacity: 0.4;
+    bottom: 1px;
+
+}
+
+#a2, #a3 {
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 27px;
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    padding-top: 6px;
+    text-align: center;
+    color: white;
+    top: 490px;
+
+}
+
+#a2 {
+    left: 240px;
+
+}
+
+#a3 {
+    left: 440px;
+
+}
+
+ul {
+    background: #f8f8f8;
+}
+
+.imgBorder {
+    border-right: solid 140px black;
+    border-left: solid 140px black;
+
+}
+
+.tdFoot, .thFoot {
+    font-weight: bold;
+    width: 200px;
+
+}
+
+.tableFoot {
+    float: left;
+    max-width: 600px;
+    line-height: 50px;
+}
+
+.tbodyFoot {
+    line-height: 25px;
+}
+
+.codeImg {
+
+}
+
+.tda, .tda:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.marginLeft {
+    margin-left: -370px;
+}
+
+.centerImg {
+    width: 33%;
+    float: left;
+    padding: 0;
+    height: auto;
+}
+
+.pic{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
