@@ -1,0 +1,53 @@
+#root6 {
+    margin-top: 90px;
+    background: #eee;
+    margin-bottom: 60px;
+
+}
+
+#title {
+
+    width: 20%;
+    height: 300px;
+    position: fixed;
+    right: 5%;
+    top: 10%;
+
+}
+
+.aTitle {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 3% 15% 3% 15%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: white;
+}
+
+.passage {
+
+    line-height: 40px;
+    padding-top: 20px;
+
+}
+
+hr {
+    color: black;
+    font-size: 10px;;
+}
+
+.passageRoot {
+    padding-right: 300px;
+}
+
+h2 {
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+p {
+    font-size: 19px;
+}
+
