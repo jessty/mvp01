@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Title</title>
+    <link href="cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="cdn.bootcss.com/respond.js"></script>
+    <script src="jquery.min.js"></script>
+    <style>
+        #nav {
+            height: 90px;
+
+        }
+
+        #logoA {
+            display: inline-block;
+            width: 200px;
+            height: 64px;
+            padding: 0;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+
+        #logo {
+            width: 100%;
+
+        }
+
+        #login {
+            padding-top: 13px;
+
+        }
+
+        @media (max-width: 768px) {
+            #mvpNavbar {
+                margin-top: 0;
+                padding-right: 20px;
+                font-size: 20px;
+                font-family: "Microsoft YaHei";
+
+            }
+        }
+
+        @media (min-width: 769px) {
+            #mvpNavbar {
+                margin-top: 15px;
+                padding-right: 50px;
+                font-size: 20px;
+                font-family: "Microsoft YaHei";
+            }
+        }
+
+        .oneH1 {
+            font-weight: bold;
+            font-family: "Microsoft YaHei";
+            margin-top: 45px;
+
+        }
+
+        .oneP {
+            font-weight: 100;
+            font-size: 23px;
+            margin-top: 40px;
+        }
+
+        .createA {
+            background: seagreen;
+            color: white;
+            font-weight: 200;
+            font-size: 25px;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 30px;
+
+        }
+
+        .createA:hover {
+            text-decoration: none;
+            box-shadow: -2px 0 5px #0ab2c0, 0 -2px 5px #0ab2c0, 0 2px 5px #0ab2c0, 2px 0 5px #0ab2c0;
+            color: white;
+        }
+
+        /*>>>>>>>>*/
+        /*修改active*/
+        .carousel-indicators li {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin: 1px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: #000 \9;
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid gray;
+            border-radius: 10px
+        }
+
+        .carousel-indicators .active {
+            width: 20px;
+            height: 20px;
+            margin: 0;
+            background-color: green;
+        }
+
+        .carousel-indicators {
+            position: absolute;
+            bottom: -40px;
+            left: 40%;
+            z-index: 15;
+            width: 80%;
+            padding-left: 0;
+            margin-left: -30%;
+            text-align: center;
+            list-style: none
+        }
+
+        /*<<<<<<<<*/
+
+    </style>
+</head>
+<body>
+<!--MVP01的导航栏-->
+<nav class="navbar navbar-default" role="navigation" id="nav">
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand" id="logoA"><img src="pic/logo.png" alt="logo" id="logo" class="img-responsive"></a>
+        <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
+        <ul class="nav navbar-nav" style="background: #f8f8f8;">
+            <li><a href="#" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+            <li><a href="#">我们是谁</a></li>
+            <li><a href="#">解决方案</a></li>
+            <li><a href="#">如何使用</a></li>
+            <li><a href="#">加入我们</a></li>
+            <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+<!--创建项目-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-xs-12">
+            <div class="col-md-12 col-xs-12">
+                <h1 class="oneH1">离产品成功，您还差一个靠谱的开发团队</h1>
+                <p class="oneP">提交您的项目创意，将由专业项目经理与您一对一沟通，
+                    并组建精英团队，项目过程透明可跟踪，帮您快速完成产品</p>
+            </div>
+
+
+            <a href="#" class="col-md-4 col-xs-12 createA">创建项目</a>
+
+        </div>
+        <div class="col-md-4 hidden-xs col-sm-12">
+            <div id="slideOne" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#slideOne" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideOne" data-slide-to="1"></li>
+                    <li data-target="#slideOne" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="pic/instantprice.png" alt="价格">
+                    </div>
+                    <div class="item">
+                        <img src="pic/fixedpricing.png" alt="固定价格">
+                    </div>
+                    <div class="item">
+                        <img src="pic/endtoendmanagement.png" alt="一对一管理">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row" style="margin-top: 40px;">
+        <a class="col-md-12 col-xs-12" style="text-align: center;" href="#">
+            <span class="glyphicon glyphicon-chevron-down" style="font-size: 30px;color:green"></span>
+        </a>
+    </div>
+</div>
+<!--创建项目结束-->
+
+
+
+<script src="cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
