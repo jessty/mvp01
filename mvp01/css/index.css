@@ -1,96 +1,15 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    font-family: "Lantinghei SC","Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;;
-}
-#nav {
-    height: 90px;
-    background-color: white;
-    border: none;
-}
-#logoA {
-    display: inline-block;
-    width: 200px;
-    height: 64px;
-    padding: 0;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
-#logo {
-    width: 100%;
-}
-
-#login {
-    padding-top: 13px;
-
-}
-
-#backTop {
-    position: fixed;
-    border: 1px solid gray;
-    background: white;
-    bottom: 90px;
-    right: 20px;
-    padding: 10px;
-    box-shadow: -2px 0 5px #c0c0c0, 0 -2px 5px #c0c0c0, 0 2px 5px #c0c0c0, 2px 0 5px #c0c0c0;
-    z-index: 100;
-}
-#backTop:hover {
-    text-decoration: none;
-}
-#fixedLocation2 {
-    position: fixed;
-    bottom: 5px;
-    right: 80px;
-    z-index: 100;
-
-}
-
-#fixedLocation1 {
-    position: fixed;
-    top: 160px;
-    right: 50px;
-    z-index: 100;
-}
-.fixGroup span{
-    font-size: 17px;
-    padding: 4px;
-}
-.fixGroup>span:nth-child(2){
-    border-left: 1px solid white;
-}
-.fixGroup {
-    padding: 5px;
-    border: 1px solid #1bb49d;
-    cursor: pointer;
-    margin: 8px 0 8px 0;
-    background: #1dc9b1;
-    color: #ffffff;
-}
-
-.show {
-    box-shadow: -2px 0 5px #0ab2c0, 0 -2px 5px #0ab2c0, 0 2px 5px #0ab2c0, 2px 0 5px #0ab2c0;
-}
 
 
-h1.first-h1{
-    font-size: 38px;
-}
-h4{
+.index-sm-h{
     padding-bottom: 5px;
     border-bottom: solid 3px black;
     font-weight: 400;
     display: inline-block;
 }
-p{
-    padding-top: 20px;
-    padding-bottom: 15px;
-    color: #5e5e5e;
-    line-height:180%;
-}
+/*p{*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 15px;*/
+/*}*/
 #first-part>div{
     padding-top: 50px;
     padding-bottom: 10px;
@@ -111,26 +30,6 @@ p{
     background-color: #1dc9b1 !important;
     border-color: #1dc9b1;
 }
-.carousel-inner{
-
-}
-.create-project{
-    margin-top: 20px;
-    padding: 30px 20px;
-    background-color: #1bbaa2;
-    color: white;
-    font-size: 20px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.create-project:hover{
-    text-decoration: none;
-    color: white;
-    background-color: #21e7c9;
-}
 #go-to-info{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -141,10 +40,6 @@ p{
 #go-to-info a{
     color: #24cbb4;
 }
-
-
-
-
 .info-parts{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -170,100 +65,18 @@ p{
 
 
 
-#kaiqi-chanpin{
-    padding-bottom: 60px;
-    padding-top: 60px;
-    text-align: center;
-}
-#kaiqi-chanpin span{
-    color: black;
-    font-size: 28px;
-    font-weight: 400;
-}
 
-
-
-footer{
-    background-color: black;
-    color: #ffffff;
-}
-footer ul{
-    list-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-}
-footer li{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-footer .row:first-child>.col-md-3{
-    padding-top: 70px;
-}
-.footer-link{
-    color: #c6c6c6;
-}
-.footer-link:hover{
-    color: #c6c6c6;
-}
-#copyright{
-    color: #ffffff;
-    text-align: center;
-}
 @media (max-width: 768px){
-    #mvpNavbar {
-        margin-top: 0;
-        padding-right: 20px;
-        font-size: 20px;
-    }
-    .fixGroup-xs {
-        width: 34px;
-        height: 34px;
-        border: 1px solid gray;
-        border-radius: 5px;
-        cursor: pointer;
-        padding: 4px 0 1px 6px;
-        background: #1dc9b1;
-        color: #e5e5e5;
-        font-size: 20px;
-        position: fixed;
-        bottom: 10px;
-        right: 20px;
-        z-index: 100;
 
-    }
     h1{
         font-size: 27px;
     }
 }
 @media (min-width: 769px) {
-    #mvpNavbar {
-        margin-top: 15px;
-        padding-right: 50px;
-        font-size: 20px;
-    }
-    .navbar-default .navbar-nav>li>a{
-        background-color: white;
-    }
-    #kaiqi-chanpin span{
-        padding-right: 60px;
-    }
+
 }
 @media (min-width: 992px) {
-    #fixed-nav{
-        position: fixed;
-        top: 0px;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.85);
-        z-index: 10;
-        box-shadow: -2px 0 5px gray ;
-    }
-    .navbar{
-        margin-bottom: 0px;
-    }
-    #nav{
-        background-color: rgba(255, 255, 255, 0);
-    }
+
     #go-to-info{
         padding-top: 100px;
     }
@@ -271,21 +84,14 @@ footer .row:first-child>.col-md-3{
         padding-top: 180px;
     }
     .info-parts{
-        padding-top: 90px;
-        padding-bottom: 90px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .info-parts:first-child{
+        padding-top: 150px;
     }
     .info-parts>div:nth-child(1),.info-parts>div:nth-child(3){
         padding-top:0px;
         padding-bottom: 0px;
     }
-    #kaiqi-chanpin span{
-        padding-right: 60px;
-        font-size: 35px;
-    }
-    #kaiqi-chanpin{
-        padding-bottom: 100px;
-        padding-top: 100px;
-        text-align: center;
-    }
-
 }

@@ -10,6 +10,7 @@
     <link href="css/navbarFixed.css" rel="stylesheet">
     <link href="css/usage.css" rel="stylesheet">
     <script src="jquery.min.js"></script>
+    <link href="css/index.css" rel="stylesheet">
     <style>
 
     </style>
@@ -41,28 +42,29 @@
 </div>
 
 <!--MVP01的导航栏-->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
-    <div class="navbar-header">
-        <a href="#" class="navbar-brand" id="logoA"><img src="pic/logo.png" alt="logo" id="logo" class="img-responsive"></a>
-        <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-    <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
-        <ul class="nav navbar-nav" style="background: #f8f8f8;">
-            <li><a href="index.html" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
-            <li><a href="#">我们是谁</a></li>
-            <li><a href="plan.html">解决方案</a></li>
-            <li><a href="usage.html">如何使用</a></li>
-            <li><a href="join.html">加入我们</a></li>
-            <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
-        </ul>
-
-    </div>
-
-</nav>
+<div id="fixed-nav">
+    <nav class="navbar navbar-default container" role="navigation"  id="nav">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand" id="logoA"><img src="pictures/logo.png" alt="logo" id="logo" class="img-responsive"></a>
+            <button id="navbt" type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
+            <ul class="nav navbar-nav" style="background: #f8f8f8;">
+                <li><a href="index.html" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+                <li><a href="whoweare.html">我们是谁</a></li>
+                <li><a href="plan.html">解决方案</a></li>
+                <li><a href="usage.html">如何使用</a></li>
+                <li><a href="join.html">加入我们</a></li>
+                <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+            </ul>
+        </div>
+        <!--<div id="inset-nav" class="visible-xs"></div>-->
+    </nav>
+</div>
 
 <!--第一片区域-->
 <section style="margin-top: 90px;margin-bottom: 40px;">

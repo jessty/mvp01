@@ -9,6 +9,7 @@
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/plan.css" rel="stylesheet">
     <script src="jquery.min.js"></script>
+    <!--<link href="css/index.css" rel="stylesheet">-->
     <style>
 
     </style>
@@ -16,7 +17,7 @@
 <body>
 <!--固定位置元素-->
 <a id="backTop" href="#" style="display:none">
-    回到顶部
+    Top
 </a>
 <div id="fixedLocation1" style="display:none"  class="hidden-xs">
     <div class="fixGroup" rel="0">
@@ -44,28 +45,29 @@
 
 
 <!--MVP01的导航栏-->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
-    <div class="navbar-header">
-        <a href="#" class="navbar-brand" id="logoA"><img src="pic/logo.png" alt="logo" id="logo" class="img-responsive"></a>
-        <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-    <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
-        <ul class="nav navbar-nav" style="background: #f8f8f8;">
-            <li><a href="index.html" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
-            <li><a href="#">我们是谁</a></li>
-            <li><a href="plan.html">解决方案</a></li>
-            <li><a href="usage.html">如何使用</a></li>
-            <li><a href="join.html">加入我们</a></li>
-            <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
-        </ul>
-
-    </div>
-
-</nav>
+<div id="fixed-nav">
+    <nav class="navbar navbar-default container" role="navigation"  id="nav">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand" id="logoA"><img src="pictures/logo.png" alt="logo" id="logo" class="img-responsive"></a>
+            <button id="navbt" type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
+            <ul class="nav navbar-nav" style="background: #f8f8f8;">
+                <li><a href="index.html" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+                <li><a href="whoweare.html">我们是谁</a></li>
+                <li><a href="plan.html">解决方案</a></li>
+                <li><a href="usage.html">如何使用</a></li>
+                <li><a href="join.html">加入我们</a></li>
+                <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+            </ul>
+        </div>
+        <!--<div id="inset-nav" class="visible-xs"></div>-->
+    </nav>
+</div>
 
 <!--第一片区域-->
 <section style="margin-top: 90px;margin-bottom: 40px;">
@@ -253,7 +255,7 @@
             <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
                 <div style="width: 206px;height: auto;position: relative;">
                     <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
-                    <div class="carousel slide" id="slideTow" style="position: absolute;top: 60px;left: 28px;">
+                    <div class="carousel slide" id="slideTow" style="position: absolute;top: 60px;left: 28px;" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#slideTow" data-slide-to="0" class="active"></li>
                             <li data-target="#slideTow" data-slide-to="1"></li>
@@ -317,7 +319,7 @@
             <div class="col-md-6 col-xs-12 " style="padding-bottom: 38px;">
                 <div class="pull-right floatRight" style="width: 206px;height: auto;position: relative;">
                     <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
-                    <div class="carousel slide" id="slideThree" style="position: absolute;top: 60px;left: 28px;">
+                    <div class="carousel slide" id="slideThree" style="position: absolute;top: 60px;left: 28px;" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#slideThree" data-slide-to="0" class="active"></li>
                             <li data-target="#slideThree" data-slide-to="1"></li>
@@ -375,7 +377,7 @@
             <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
                 <div style="position: relative;" class="pcChar">
                     <img src="pic/instance/laptop-illustration.svg" style="width: 100%;height:100%;">
-                    <div class="carousel slide" id="slideFour" style="">
+                    <div class="carousel slide" id="slideFour" style="" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#slideFour" data-slide-to="0" class="active"></li>
                             <li data-target="#slideFour" data-slide-to="1"></li>
@@ -432,7 +434,7 @@
             <div class="col-md-6 col-xs-12 " style="padding-bottom: 38px;">
                 <div class="pull-right floatRight" style="width: 206px;height: auto;position: relative;">
                     <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
-                    <div class="carousel slide" id="slideFive" style="position: absolute;top: 60px;left: 28px;">
+                    <div class="carousel slide" id="slideFive" style="position: absolute;top: 60px;left: 28px;" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#slideFive" data-slide-to="0" class="active"></li>
                             <li data-target="#slideFive" data-slide-to="1"></li>
@@ -498,7 +500,7 @@
             <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
                 <div style="width: 206px;height: auto;position: relative;">
                     <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
-                    <div class="carousel slide" id="slideSix" style="position: absolute;top: 60px;left: 28px;">
+                    <div class="carousel slide" id="slideSix" style="position: absolute;top: 60px;left: 28px;" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#slideSix" data-slide-to="0" class="active"></li>
                             <li data-target="#slideSix" data-slide-to="1"></li>
@@ -558,7 +560,7 @@
             <div class="col-md-6 col-xs-12 " style="padding-bottom: 38px;">
                 <div class="pull-right floatRight" style="width: 206px;height: auto;position: relative;">
                     <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
-                    <div class="carousel slide" id="slideSeven" style="position: absolute;top: 60px;left: 28px;">
+                    <div class="carousel slide" id="slideSeven" style="position: absolute;top: 60px;left: 28px;" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#slideSeven" data-slide-to="0" class="active"></li>
                             <li data-target="#slideSeven" data-slide-to="1"></li>
@@ -616,7 +618,7 @@
             <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
                 <div style="position: relative;" class="pcChar">
                     <img src="pic/instance/laptop-illustration.svg" style="width: 100%;height:100%;">
-                    <div class="carousel slide" id="slideEight" style="">
+                    <div class="carousel slide" id="slideEight" style="" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#slideEight" data-slide-to="0" class="active"></li>
                             <li data-target="#slideEight" data-slide-to="1"></li>

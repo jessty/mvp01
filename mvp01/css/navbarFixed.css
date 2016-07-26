@@ -1,25 +1,7 @@
-@media (max-width: 768px) {
-    #mvpNavbar {
-        margin-top: 0;
-        padding-right: 20px;
-        font-size: 20px;
-        font-family: "Microsoft YaHei";
-
-    }
-}
-
-@media (min-width: 769px) {
-    #mvpNavbar {
-        margin-top: 15px;
-        padding-right: 50px;
-        font-size: 20px;
-        font-family: "Microsoft YaHei";
-    }
-}
-
 #nav {
     height: 90px;
-
+    background-color: white;
+    border: none;
 }
 #logoA {
     display: inline-block;
@@ -42,14 +24,11 @@
 
 #backTop {
     position: fixed;
-    width: 45px;
-    height: 45px;
     border: 1px solid gray;
     background: white;
     bottom: 90px;
     right: 20px;
-    padding-left: 7px;
-    font-family: "Microsoft YaHei";
+    padding: 10px;
     box-shadow: -2px 0 5px #c0c0c0, 0 -2px 5px #c0c0c0, 0 2px 5px #c0c0c0, 2px 0 5px #c0c0c0;
     z-index: 100;
 }
@@ -57,8 +36,45 @@
 #backTop:hover {
     text-decoration: none;
 }
+#fixedLocation2 {
+    position: fixed;
+    bottom: 5px;
+    right: 80px;
+    z-index: 100;
 
+}/**/
+
+#fixedLocation1 {
+    position: fixed;
+    top: 160px;
+    right: 50px;
+    z-index: 100;
+}/**/
+
+.fixGroup span{
+    font-size: 17px;
+    padding: 4px;
+}
+.fixGroup>span:nth-child(2){
+    border-left: 1px solid white;
+}
+.fixGroup {
+    padding: 5px;
+    border: 1px solid #1bb49d;
+    cursor: pointer;
+    margin: 8px 0 8px 0;
+    background: #1dc9b1;
+    color: #ffffff;
+}
+.show {
+    box-shadow: -2px 0 5px #0ab2c0, 0 -2px 5px #0ab2c0, 0 2px 5px #0ab2c0, 2px 0 5px #0ab2c0;
+}/**/
 @media (max-width: 768px) {
+    #mvpNavbar {
+        margin-top: 0;
+        padding-right: 20px;
+        font-size: 20px;
+    }
     .fixGroup-xs {
         width: 34px;
         height: 34px;
@@ -66,7 +82,7 @@
         border-radius: 5px;
         cursor: pointer;
         padding: 4px 0 1px 6px;
-        background: #0f9c23;
+        background: #1dc9b1;
         color: #e5e5e5;
         font-size: 20px;
         position: fixed;
@@ -76,39 +92,31 @@
 
     }
 }
-
-#fixedLocation2 {
-    position: fixed;
-    bottom: 10px;
-    right: 50px;
-    z-index: 100;
-
+@media (min-width: 769px) {
+    #mvpNavbar {
+        margin-top: 15px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        background-color: white;
+    }
 }
+@media (min-width: 992px) {
+    #fixed-nav {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.85);
+        z-index: 10;
+        box-shadow: -2px 0 5px gray;
+    }
 
-#fixedLocation1 {
-    position: fixed;
-    top: 160px;
-    right: 50px;
-    z-index: 100;
-}
+    .navbar {
+        margin-bottom: 0px;
+    }
 
-.fixedBtn {
-    font-size: 17px;
-    padding: 7px;
-    border-right: 1px solid;
-
-}
-
-.fixGroup {
-    width: 122px;
-    height: 34px;
-    border: 1px solid gray;
-    cursor: pointer;
-    margin: 8px 0 8px 0;
-    background: #0f9c23;
-    color: #e5e5e5;
-
-}
-.show {
-    box-shadow: -2px 0 5px #0ab2c0, 0 -2px 5px #0ab2c0, 0 2px 5px #0ab2c0, 2px 0 5px #0ab2c0;
+    #nav {
+        background-color: rgba(255, 255, 255, 0);
+    }
 }

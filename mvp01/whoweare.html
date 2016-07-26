@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" charset="UTF-8" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <title>MVP01-更可靠的互联网产品众包开发平台</title>
+    <!--引入bootstrap-->
+    <link href="cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="jquery.min.js"></script>
+
+    <link href="css/navbarFixed.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/font-style.css" rel="stylesheet">
+    <link href="css/whoweare.css" rel="stylesheet">
+</head>
+<body>
+<!--返回顶部按钮-->
+<a id="backTop" href="#" style="display:none">
+    Top
+</a>
+<!--返回顶部按钮-->
+<div id="fixedLocation1" style="display:none"  class="hidden-xs">
+    <div class="fixGroup" rel="0">
+        <span class="glyphicon glyphicon-book fixedBtn"></span>
+        <span style="font-size: 17px;">开发者们</span>
+    </div>
+    <div class="fixGroup" rel="1">
+        <span class="glyphicon glyphicon-list fixedBtn"></span>
+        <span style="font-size: 17px;">MVP01</span>
+    </div>
+
+</div>
+<!--联系我们按钮-->
+<div id="fixedLocation2">
+    <div class="fixGroup hidden-xs" rel="2">
+        <span class="glyphicon glyphicon-comment fixedBtn"></span>
+        <span>联系我们</span>
+    </div>
+</div>
+<div class="visible-xs fixGroup-xs">
+    <span class="glyphicon glyphicon-comment"></span>
+</div>
+<!--联系我们按钮-->
+
+
+
+<!--MVP01的导航栏-->
+<div id="fixed-nav">
+    <nav class="navbar navbar-default container" role="navigation"  id="nav">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand" id="logoA"><img src="pictures/logo.png" alt="logo" id="logo" class="img-responsive"></a>
+            <button id="navbt" type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
+            <ul class="nav navbar-nav" style="background: #f8f8f8;">
+                <li><a href="index.html" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+                <li><a href="whoweare.html">我们是谁</a></li>
+                <li><a href="plan.html">解决方案</a></li>
+                <li><a href="usage.html">如何使用</a></li>
+                <li><a href="join.html">加入我们</a></li>
+                <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+            </ul>
+        </div>
+        <!--<div id="inset-nav" class="visible-xs"></div>-->
+    </nav>
+</div>
+<!--MVP01的导航栏-->
+
+
+
+
+<!--内容的第一板块-->
+<div class="container">
+    <div class="row" id="first-part">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <h1 class="lg-h1">招募软件技术开发和设计精英，帮您打造高质量的产品</h1>
+            <blockquote class="font-of-p">仅雇佣人来实现你的想法并不是创新的最佳途径，更好的做法是雇佣人才来和你一起创造</blockquote>
+            <p id="quote-name" class="font-of-p">——史蒂夫·乔布斯</p>
+        </div>
+        <div class="col-md-6 col-lg-6 visible-md visible-lg">
+            <img class="img-responsive center-block" src="pictures/stars.png"/>
+        </div>
+    </div>
+</div>
+<div id="whoweare-to-info" class="text-center">
+    <a href="#developer">开发者们</a>
+    <a href="#mvp01">MVP01</a>
+</div>
+<!--内容的第一板块-->
+
+
+<!--内容的第二板块之一--“开发者们”-->
+<div id="developer">
+    <div class="container">
+        <div class="row text-center" >
+            <h3 class="info-title1">开发者们</h3>
+            <h3 class="info-title2">找不到靠谱的人帮您开发产品，是种怎样的体验?<br/>选择MVP01，给您带来专业级开发保障！</h3>
+        </div>
+        <h1 class="row col-xs-12">业界精英</h1>
+        <div class="row">
+            <p class="col-xs-12 col-sm-12 col-md-12 col-lg-8 font-of-p">我们在互联网行业帮您找到最靠谱、最有能力的开发者和设计师来帮您打造产品，保证高质量产品按时交付，让您快速启动项目。</p>
+        </div>
+
+
+        <div class="row mvp01ers-show">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="mvp01er">
+                    <div class="front">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er02.png">
+                        <h3>赵**<br/><span>ANDROID开发工程师</span></h3>
+                        <p class="font-of-p">参与开发类似腾讯新闻的移动app，擅长解决app在Android平台上的兼容，在Github平台上贡献过基础组建代码。</p>
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er03.png">
+                        <h3>舒*<br/><span>UI设计师</span></h3>
+                        <p class="font-of-p">参与设计过10个app产品的UI设计，具备自己的设计风格，崇尚移动产品的简约style，善于站在产品角度去思考设计，注重用户的视觉体验感。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                <div class="mvp01er">
+                    <div class="front">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er03.png">
+                        <h3>舒*<br/><span>UI设计师</span></h3>
+                        <p class="font-of-p">参与设计过10个app产品的UI设计，具备自己的设计风格，崇尚移动产品的简约style，善于站在产品角度去思考设计，注重用户的视觉体验感。</p>
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er04.png">
+                        <h3>谢**<br/><span>UX设计师</span></h3>
+                        <p class="font-of-p">参与过上亿用户app的UX设计，对移动app交互体验有着丰富的经验，崇尚精致和简单，目前就职于一家创业类似滴滴出行的公司。</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="mvp01er">
+                    <div class="front">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er04.png">
+                        <h3>任**<br/><span>测试工程师</span></h3>
+                        <p class="font-of-p">具有5年的移动app测试经验，能够app开发的质量具有高度的敏感性，目前复杂一个上亿级用户移动app团队工作。</p>
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er06.png">
+                        <h3>母*<br/><span>WEB前端开发工程师</span></h3>
+                        <p class="font-of-p">参与电商后台系统前端开发，类似美丽说、蘑菇街，具有3年Web前端开发经验，注重前端运行效率，精通BootStrap、PhoneGap，擅长基于H5的响应式开发。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                <div class="mvp01er">
+                    <div class="front">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er04.png">
+                        <h3>文*<br/><span>后台开发工程师</span></h3>
+                        <p class="font-of-p">精通java、ruby、python，熟练使用mysql、mongodb、spring，在后台开发的扩展性、安全性有丰富的经验。</p>
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er05.png">
+                        <h3>匡**<br/><span>JAVA工程师</span></h3>
+                        <p class="font-of-p">毕业于清华大学，写了标准的分布式抓取技术，让一般用户都能够快速上手实现任何网页数据的抓取和使用，目前就职于地图数据公司，类似高德、百度地图。</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                <div class="mvp01er">
+                    <div class="front">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er05.png">
+                        <h3>匡**<br/><span>JAVA工程师</span></h3>
+                        <p class="font-of-p">毕业于清华大学，写了标准的分布式抓取技术，让一般用户都能够快速上手实现任何网页数据的抓取和使用，目前就职于地图数据公司，类似高德、百度地图。</p>
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er06.png">
+                        <h3>母*<br/><span>WEB前端开发工程师</span></h3>
+                        <p class="font-of-p">参与电商后台系统前端开发，类似美丽说、蘑菇街，具有3年Web前端开发经验，注重前端运行效率，精通BootStrap、PhoneGap，擅长基于H5的响应式开发。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                <div class="mvp01er">
+                    <div class="front">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er04.png">
+                        <h3>谢**<br/><span>UX设计师</span></h3>
+                        <p class="font-of-p">参与过上亿用户app的UX设计，对移动app交互体验有着丰富的经验，崇尚精致和简单，目前就职于一家创业类似滴滴出行的公司。</p>
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img-circle center-block" src="pictures/mvp01er04.png">
+                        <h3>文*<br/><span>后台开发工程师</span></h3>
+                        <p class="font-of-p">精通java、ruby、python，熟练使用mysql、mongodb、spring，在后台开发的扩展性、安全性有丰富的经验。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <p class="col-xs-12 font-of-p">过百位开发精英为您的产品保驾护航</p>
+        </div>
+
+        <h1 class="row col-xs-12">值得信赖</h1>
+        <div class="row">
+            <p class="col-xs-12 font-of-p">MVP01的开发者有亿级用户互联网产品开发经验，有来自清华、北大、北航、北邮等名校研究生，更多来自领先互联网公司，如百度、腾讯、阿里巴巴和网易等。</p>
+        </div>
+        <div class="row">
+            <img class="img-responsive col-xs-6 col-sm-6 col-md-3 col-lg-3 dev-img" src="pictures/whowearetencent.png"/>
+            <img class="img-responsive col-xs-6 col-sm-6 col-md-3 col-lg-3 dev-img" src="pictures/whowearealibaba.png"/>
+            <img class="img-responsive col-xs-6 col-sm-6 col-md-3 col-lg-3 dev-img" src="pictures/whowearetinghua.png"/>
+            <img class="img-responsive col-xs-6 col-sm-6 col-md-3 col-lg-3 dev-img" src="pictures/whoweareanetease.png"/>
+        </div>
+    </div>
+</div>
+<!--内容的第二板块之一--“开发者们”-->
+
+
+<!--内容的第二板块之一--“MVP01”-->
+<div id="mvp01" class="container">
+    <div class="row text-center">
+        <h3 class="info-title1">MVP01</h3>
+        <h3 class="info-title2">我们目标是写出世界上所有的软件</h3>
+    </div>
+    <div class="row">
+        <p id="mvp01-p" class="col-xs-12 font-of-p">
+            <span>这是一个软件驱动的世界</span><br/>
+            从通信、媒体、娱乐到交通、旅游和贸易，越来越多的真实世界运作基于软件的基础，软件不仅驱动着GDP的增长，更塑造着我们所体验的世界。<br/>
+            我们希望为客户书写那些可能改变世界的软件。<br/>
+            <span>这是一个共享经济引领的世界</span><br/>
+            损有余，补不足。共享经济重新组合着衣食住行的各类资源，而最有价值的资源其实人们的创造力。随着在线工具促进了更多的协作，人们会更加建设性地利用自由时间，来从事创造性活动而不仅仅是消费，这其中就包扩最富生产力的工程师、设计师和产品经理们。<br/>
+            我们希望用共享经济的方式释放那些被封存的认知盈余。<br/>
+            <span>这是一个互联网+的世界</span><br/>
+            互联网是信息时代赐予人类的礼物，也是传统行业门口的野蛮人，交通、金融、医疗、物流、制造、媒体、教育、传统IT等各行各业纷纷拥抱互联网，在他们未来的商业版图中，互联网能力已然成为标配。<br/>
+            我们希望成为传统行业互联网化的赋能者。
+        </p>
+    </div>
+</div>
+<!--内容的第二板块之一--“MVP01”-->
+
+
+<!--“开启您的产品”部分-->
+<div id="kaiqi-chanpin-wrap">
+    <div class="container">
+        <div id="kaiqi-chanpin" class="row">
+            <p class="col-xs-12"><span>开启您的产品</span><a class="create-project visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block" href="">创建项目</a></p>
+        </div>
+    </div>
+</div>
+<!--“开启您的产品”部分-->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <ul>
+                    <li>网站信息</li>
+                    <li><a class="footer-link" href="">我们是谁</a></li>
+                    <li><a class="footer-link" href="">完成案例</a></li>
+                    <li><a class="footer-link" href="">如何使用</a></li>
+                    <li><a class="footer-link" href="">合作伙伴</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <ul>
+                    <li>服务信息</li>
+                    <li><a class="footer-link" href="">常见问题</a></li>
+                    <li><a class="footer-link" href="">使用条款</a></li>
+                    <li><a class="footer-link" href="">隐私协议</a></li>
+                    <li><a class="footer-link" href="">开票说明</a></li>
+                </ul>
+            </div>
+
+            <div class="clearfix visible-sm visible-xs"></div>      <!--当屏幕是sm，xs时，清除浮动-->
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <ul>
+                    <li>联系合作</li>
+                    <li><a class="footer-link" href="">邮箱: BD@MVP01.COM</a></li>
+                    <li><a class="footer-link" href="">电话: 010-84786625</a></li>
+                    <li><a class="footer-link" href="">官方博客: MVP01</a></li>
+                    <li><a class="footer-link" href="">加入我们</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6  col-xs-6">
+                <ul>
+                    <li>公司地址</li>
+                    <li class="footer-link">北京市 朝阳区</li>
+                    <li class="footer-link">东亚望京中心A座</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p id="copyright" class="col-md-12">©2016 MVP01 京ICP备14038571号-3</p>
+        </div>
+    </div>
+</footer>
+
+<script src="cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery.fixedClick.js"></script>
+<script>
+    $(function () {
+        $(".fixGroup").click(function () {
+            var rel = $(this).attr("rel");
+            if (rel == 0) {
+                location.href = "whoweare.html#developer";
+            }
+            else if (rel == 1) {
+                location.href = "whoweare.html#mvp01";
+
+            }
+            else {
+
+            }
+        });
+        $.pointClick(433,1833,3699,null);
+//            $("#navbt").bind("click",function () {
+//                $("#inset-nav").html($("#mvpNavbar"));
+//            })
+    });
+</script>
+</body>
+</html>
