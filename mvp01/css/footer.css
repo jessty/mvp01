@@ -1,0 +1,74 @@
+#kaiqi-chanpin{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+}
+#kaiqi-chanpin span{
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+
+footer{
+    background-color: black;
+    color: #ffffff;
+}
+footer ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+footer li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer .row:first-child>.col-md-3{
+    padding-top: 70px;
+}
+.footer-link{
+    color: #c6c6c6;
+}
+.footer-link:hover{
+    color: #c6c6c6;
+}
+#copyright{
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #kaiqi-chanpin span{
+        padding-right: 60px;
+    }
+}
+@media (min-width: 992px) {
+    #kaiqi-chanpin span{
+        font-size: 35px;
+    }
+    #kaiqi-chanpin{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+}
+.create-project{
+    margin-top: 20px;
+    padding: 30px 20px;
+    background-color: #1bbaa2;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.create-project:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #21e7c9;
+}

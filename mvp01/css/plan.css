@@ -1,0 +1,223 @@
+.firstP{
+    font-family: "Microsoft YaHei";
+    font-size: 40px;
+
+}
+.instanceTitle {
+    font-family: "Microsoft YaHei";
+}
+.secondP {
+    font-weight: 200;
+    font-size: 30px;
+    color: #00ac00;
+    margin-bottom: 20px;
+}
+
+.thirdP {
+    color: gray;
+    font-size: 28px;
+
+}
+
+
+.forthP {
+    color: #00ac00;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+
+}
+
+.fifthP, .tableIns {
+    color: gray;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+
+}
+
+.tableIns {
+    border: none;
+    width: 100%;
+
+}
+
+.tdIns {
+    width: 50%;
+
+}
+
+.trIns {
+    height: 40px;
+}
+
+.tag {
+    border: 1px solid #9e9e9e;
+    border-radius: 5px;
+    box-shadow: -2px 0 5px #cecece, 0 0 0 white, 0 2px 5px #cecece, 2px 0 5px #cecece;
+    position: relative;
+    background: white;
+    margin-right: 20px;
+    margin-bottom: 90px;;
+
+}
+
+@media (max-width: 762px) {
+    .tagHead {
+        width: 90px;
+        height: 90px;
+        left: 40%;
+        top: -40px;
+    }
+
+    .forthP {
+        font-size: 23px;
+    }
+
+    .fifthP, .tableIns {
+        font-size: 16px;
+    }
+    .tag{
+        padding: 60px 40px 20px 40px;
+
+    }
+    .instanceTitle {
+        font-size: 30px;
+    }
+    .pcChar{
+        width: 320px;
+        height: auto;
+    }
+    .pcPic {
+        width: 250px;
+
+    }
+    #slideEight,#slideFour{
+        position: absolute;top: 27px;left: 36px;
+    }
+
+}
+
+
+@media (min-width: 763px) {
+    .tagHead {
+        width: 120px;
+        height: 120px;
+        left: 40%;
+        top: -60px;
+    }
+
+    .forthP {
+        font-size: 27px;
+    }
+
+    .fifthP, .tableIns {
+        font-size: 20px;
+    }
+    .tag{
+        padding: 80px 60px 20px 60px;
+
+    }
+    .instanceTitle {
+        font-size: 40px;
+    }
+    .pcChar{
+        width: 450px;
+        height: auto;
+    }
+    .pcPic {
+        width: 350px;
+
+    }
+    #slideEight,#slideFour{
+        position: absolute;top: 44px;left: 50px;
+    }
+}
+
+.tagHead {
+    position: absolute;
+    border: 1px solid #9e9e9e;
+    box-shadow: -2px 0 5px #c2c2c2, 0 0 0 #c2c2c2, 0 2px 5px #c2c2c2, 2px 0 5px #c2c2c2;
+    background: white;
+
+    border-radius: 3px;
+
+}
+
+.planPic {
+    width: 100%;
+    height: 100%;
+}
+
+.centerLine {
+    background: #fdfaf6;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;;
+}
+
+.centerWord {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+
+}
+
+.planTitle {
+    text-align: center;
+}
+
+.phonePic {
+    width: 100%;
+}
+
+
+
+/*>>>>>>>>*/
+/*修改active*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid gray;
+    border-radius: 10px
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    background-color: green;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -90px;
+    left: 40%;
+    z-index: 15;
+    width: 80%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none
+}
+
+/*<<<<<<<<*/
+.rowHeight {
+    margin-bottom: 90px;
+    margin-top: 90px;
+    overflow: hidden;
+
+}
+
+
+
+
+
+

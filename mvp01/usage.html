@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mvp01</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/word.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navbarFixed.css" rel="stylesheet">
+    <link href="css/usage.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<!--固定位置元素-->
+<a id="backTop" href="#" style="display:none">
+    回到顶部
+</a>
+<div id="fixedLocation1" style="display:none"  class="hidden-xs">
+    <div class="fixGroup" rel="0">
+        <span class="glyphicon glyphicon-book fixedBtn"></span>
+        <span style="font-size: 17px;">平台能力</span>
+    </div>
+    <div class="fixGroup" rel="1">
+        <span class="glyphicon glyphicon-list fixedBtn"></span>
+        <span style="font-size: 17px;">项目实施</span>
+    </div>
+
+</div>
+<div id="fixedLocation2">
+    <div class="fixGroup hidden-xs" rel="2">
+        <span class="glyphicon glyphicon-comment fixedBtn"></span>
+        <span style="font-size: 17px;">联系我们</span>
+    </div>
+</div>
+<div class="visible-xs fixGroup-xs">
+    <span class="glyphicon glyphicon-comment"></span>
+</div>
+
+<!--MVP01的导航栏-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand" id="logoA"><img src="pic/logo.png" alt="logo" id="logo" class="img-responsive"></a>
+        <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
+        <ul class="nav navbar-nav" style="background: #f8f8f8;">
+            <li><a href="index.html" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+            <li><a href="#">我们是谁</a></li>
+            <li><a href="plan.html">解决方案</a></li>
+            <li><a href="usage.html">如何使用</a></li>
+            <li><a href="join.html">加入我们</a></li>
+            <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<!--第一片区域-->
+<section style="margin-top: 90px;margin-bottom: 40px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-12">
+                <div class="col-md-12 col-xs-12">
+                    <h1 class="oneH1">创建您的项目，剩下的交给我们</h1>
+                </div>
+                <a href="#" class="col-md-4 col-xs-12 createA">创建项目</a>
+
+            </div>
+            <div class="col-md-4 hidden-xs col-sm-12">
+                <img src="pic/coduct/howitwork01.png" style="width: 100%;">
+            </div>
+        </div>
+    </div>
+</section>
+<!--过渡-->
+<div class="centerLine">
+    <a href="#ability" class="centerWord">平台能力</a>
+    <a href="#conduct" class="centerWord">项目实施</a>
+    <a href="#price" class="centerWord">定价参考</a>
+
+</div>
+<!--平台能力-->
+<section style="background: #f5f5f5" id="ability">
+    <div class="container" style="padding-top: 150px;">
+        <!--第一行-->
+        <div class="row" style="margin-bottom: 150px;">
+            <div class="col-md-12 col-xs-12 planTitle">
+                <p class="secondP" ><span class="glyphicon glyphicon-book"></span>平台能力</p>
+                <p class="thirdP">构建app、网站、微信公众号或任何其它原型产品，并保证稳定运行。</p>
+            </div>
+        </div>
+        <!--第二行-->
+        <div class="row" style="margin-bottom: 120px;">
+            <div class="col-md-8 col-xs-12">
+                <p class="instanceTitle">从创意到实现</p>
+                <p class="fifthP">我们有能力处理所有的互联网产品需求，
+                    从app的完整扩建、微信公众号定制开发到短冲刺创建网站上的完美功能。</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <img src="pic/coduct/device.svg" style="width: 100%;">
+            </div>
+        </div>
+
+        <!--第三行-->
+        <div class="row" style="margin-bottom: 120px;">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <p class="instanceTitle">具备多平台技能</p>
+                <p class="fifthP"> 我们拥有全面专业知识，包括各类移动平台（
+                    iOS，Android和Watch），Web和后端。
+                </p>
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12">
+                <img src="pic/coduct/howitworklanguage.png" style="width: 100%;">
+            </div>
+
+        </div>
+        <!--第四行-->
+
+        <div class="row" style="margin-bottom: 120px;">
+            <div class="col-md-8 col-xs-12">
+                <p class="instanceTitle">组建全栈团队</p>
+                <p class="fifthP">招募开发者，并组建成一个完整的开发团队：
+                    从前端，中间件和后端，均来自每一个领域的专家。
+                    同时我们还整合了一流的项目管理和测试服务。</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <img src="pic/coduct/howitworkteam.png" style="width: 100%;">
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!--平台能力结束-->
+
+<!--项目实施-->
+<section>
+    <div class="container" id="conduct">
+        <div class="hidden-xs" style="position:absolute;height: 2140px;border-left: 4px solid green;">
+        </div>
+        <div class="row" style="padding-top: 90px;padding-bottom: 90px;">
+            <div class="col-md-12 col-xs-12 planTitle">
+                <p class="secondP">项目实施</p>
+                <p class="thirdP">轻松托管，专业管理，全程透明，即时反馈</p>
+            </div>
+        </div>
+        <!--第一点-->
+        <div class="row rowHeight">
+            <div class="col-md-10 col-xs-12 point">
+                <div class="circle hidden-xs">M</div>
+                <div class="triangle hidden-xs"></div>
+                <div class="col-md-4 col-md-push-8 col-xs-12 text-center">
+                    <img src="pic/coduct/howitworkguide.png">
+                </div>
+                <div class="col-md-8 col-xs-12 col-md-pull-4">
+
+                    <p class="sixthP">沟通明确需求</p>
+                    <p class="seventhP">项目经理会与您详细讨论，
+                        梳理产品需求并适当给出建议，提供最适合的项目定价和时间表。</p>
+                </div>
+            </div>
+        </div>
+        <!--第二点-->
+        <div class="row rowHeight">
+            <div class="col-md-10 col-xs-12 point">
+                <div class="circle hidden-xs">M</div>
+                <div class="triangle hidden-xs"></div>
+                <div class="col-md-4 col-md-push-8 col-xs-12 text-center">
+                    <img src="pic/coduct/howitworkproject.png">
+                </div>
+                <div class="col-md-8 col-xs-12 col-md-pull-4">
+
+                    <p class="sixthP">专业的项目管理</p>
+                    <p class="seventhP">您只需将想法告知项目经理，
+                        由他来全程管理项目实施，向您周期汇报进度，轻松有保障。</p>
+                </div>
+            </div>
+        </div>
+        <!--第三点-->
+        <div class="row rowHeight">
+            <div class="col-md-10 col-xs-12 point">
+                <div class="circle hidden-xs">M</div>
+                <div class="triangle hidden-xs"></div>
+                <div class="col-md-4 col-md-push-8 col-xs-12 text-center">
+                    <img src="pic/coduct/howitworkdesign.png">
+                </div>
+                <div class="col-md-8 col-xs-12 col-md-pull-4">
+
+                    <p class="sixthP">支持设计服务</p>
+                    <p class="seventhP">我们既可以实现您提供的设计方案，
+                        也可以由平台设计师操刀产品方案设计。</p>
+                </div>
+            </div>
+        </div>
+        <!--第四点-->
+        <div class="row rowHeight">
+            <div class="col-md-10 col-xs-12 point">
+                <div class="circle hidden-xs">M</div>
+                <div class="triangle hidden-xs"></div>
+                <div class="col-md-4 col-md-push-8 col-xs-12 text-center">
+                    <img src="pic/coduct/howitworkpayment.png">
+                </div>
+                <div class="col-md-8 col-xs-12 col-md-pull-4">
+
+                    <p class="sixthP">按过程付费</p>
+                    <p class="seventhP">支付保证金后，您根据项目进度，
+                        按照预定工作完成度进行分期支付。</p>
+                </div>
+            </div>
+        </div>
+        <!--第五点-->
+        <div class="row rowHeight">
+            <div class="col-md-10 col-xs-12 point">
+                <div class="circle hidden-xs">M</div>
+                <div class="triangle hidden-xs"></div>
+                <div class="col-md-4 col-md-push-8 col-xs-12 text-center">
+                    <img src="pic/coduct/howitworkzan.png">
+                </div>
+                <div class="col-md-8 col-xs-12 col-md-pull-4">
+
+                    <p class="sixthP">保证满意度</p>
+                    <p class="seventhP">全程透明式项目管理，定期反馈项目进度，专业测试人员把关。
+                        完成产品交付后，额外提供一定时间的质保服务。</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!--项目实施结束-->
+
+<!--定价参考-->
+<section style="background: #f5f5f5;padding-bottom: 90px;" id="price">
+    <div class="container">
+        <div class="row" style="padding-top: 90px;margin-bottom: 50px;">
+            <div class="col-md-12 col-xs-12 planTitle">
+                <p class="secondP">定价参考</p>
+                <p class="thirdP">更多类型项目价格预估</p>
+            </div>
+            <a href="#" class="col-md-4 col-md-push-4 col-xs-12 createA">创建项目</a>
+
+        </div>
+
+        <div class="row" style="background: white">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <table class="table table-responsive table-condense table-hover">
+                    <caption>即时通信社交类(微信)</caption>
+                    <tbody class="tableFont">
+                    <tr>
+                        <td>Web:</td>
+                        <td>¥9.2万/3.5月</td>
+                    </tr>
+                    <tr>
+                        <td>iOS:</td>
+                        <td>¥12.9万/3.5月</td>
+                    </tr>
+                    <tr>
+                        <td>Android:</td>
+                        <td>¥10.0万/3.5月</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <table class="table table-responsive table-condense table-hover">
+                    <caption>图片社交类(NICE)</caption>
+                    <tbody class="tableFont">
+                    <tr>
+                        <td>Web:</td>
+                        <td>¥6.7万/2.5月</td>
+                    </tr>
+                    <tr>
+                        <td>iOS:</td>
+                        <td>¥9.0万/2.5月</td>
+                    </tr>
+                    <tr>
+                        <td>Android:</td>
+                        <td>¥8.0万/2.5月</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <table class="table table-responsive table-condense table-hover">
+                    <caption>生活服务类(滴滴出行)</caption>
+                    <tbody class="tableFont">
+                    <tr>
+                        <td>Web:</td>
+                        <td>¥8.9万/3.5月</td>
+                    </tr>
+                    <tr>
+                        <td>iOS:</td>
+                        <td>¥11.5万/3.5月</td>
+                    </tr>
+                    <tr>
+                        <td>Android:</td>
+                        <td>¥9.4万/3.5月</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <table class="table table-responsive table-condense table-hover">
+                    <caption>音乐社交类(网易云音乐)</caption>
+                    <tbody class="tableFont">
+                    <tr>
+                        <td>Web:</td>
+                        <td>¥6.8万/2.5月</td>
+                    </tr>
+                    <tr>
+                        <td>iOS:</td>
+                        <td>¥9.5万/2.5月</td>
+                    </tr>
+                    <tr>
+                        <td>Android:</td>
+                        <td>¥8.5万/2.5月</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <table class="table table-responsive table-condense table-hover">
+                    <caption>电商类(唯品汇)</caption>
+                    <tbody class="tableFont">
+                    <tr>
+                        <td>Web:</td>
+                        <td>¥8.4万/2月</td>
+                    </tr>
+                    <tr>
+                        <td>iOS:</td>
+                        <td>¥9.0万/2月</td>
+                    </tr>
+                    <tr>
+                        <td>Android:</td>
+                        <td>¥8.4万/2月</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <table class="table table-responsive table-condense table-hover">
+                    <caption>资讯类(网易新闻)</caption>
+                    <tbody class="tableFont">
+                    <tr>
+                        <td>Web:</td>
+                        <td>¥8.4万/3.5月</td>
+                    </tr>
+                    <tr>
+                        <td>iOS:</td>
+                        <td>¥9.8万/3.5月</td>
+                    </tr>
+                    <tr>
+                        <td>Android:</td>
+                        <td>¥8.8万/3.5月</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<!--定价参考结束-->
+
+<!--底部-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div id="kaiqi-chanpin" class="col-md-12">
+                <p><span>开启您的产品</span><a class="create-project visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block" href="">创建项目</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <ul>
+                        <li>网站信息</li>
+                        <li><a class="footer-link" href="">我们是谁</a></li>
+                        <li><a class="footer-link" href="">完成案例</a></li>
+                        <li><a class="footer-link" href="">如何使用</a></li>
+                        <li><a class="footer-link" href="">合作伙伴</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6  col-xs-6">
+                    <ul>
+                        <li>服务信息</li>
+                        <li><a class="footer-link" href="">常见问题</a></li>
+                        <li><a class="footer-link" href="">使用条款</a></li>
+                        <li><a class="footer-link" href="">隐私协议</a></li>
+                        <li><a class="footer-link" href="">开票说明</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-sm visible-xs"></div>
+                <div class="col-md-3 col-sm-6  col-xs-6">
+                    <ul>
+                        <li>联系合作</li>
+                        <li><a class="footer-link" href="">邮箱: BD@MVP01.COM</a></li>
+                        <li><a class="footer-link" href="">电话: 010-84786625</a></li>
+                        <li><a class="footer-link" href="">官方博客: MVP01</a></li>
+                        <li><a class="footer-link" href="">加入我们</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6  col-xs-6">
+                    <ul>
+                        <li>公司地址</li>
+                        <li class="footer-link">北京市 朝阳区</li>
+                        <li class="footer-link">东亚望京中心A座</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p id="copyright" class="col-md-12">©2016 MVP01 京ICP备14038571号-3</p>
+            </div>
+        </div>
+    </footer>
+</section>
+
+<!--底部结束-->
+
+
+<script src="cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery.fixedClick.js"></script>
+<script>
+    $(function () {
+        $(".fixGroup").click(function () {
+            var rel = $(this).attr("rel");
+            if (rel == 0) {
+                location.href = "usage.html#ability";
+            }
+            else if (rel == 1) {
+                location.href = "usage.html#conduct";
+
+            }
+            else {
+
+            }
+        });
+        $.pointClick(433,1833,2000,null);
+    });
+
+</script>
+</body>
+</html>

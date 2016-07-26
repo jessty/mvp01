@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mvp01</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbarFixed.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/plan.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<!--固定位置元素-->
+<a id="backTop" href="#" style="display:none">
+    回到顶部
+</a>
+<div id="fixedLocation1" style="display:none"  class="hidden-xs">
+    <div class="fixGroup" rel="0">
+        <span class="glyphicon glyphicon-book fixedBtn"></span>
+        <span style="font-size: 17px;">解决方案</span>
+    </div>
+    <div class="fixGroup" rel="1">
+        <span class="glyphicon glyphicon-list fixedBtn"></span>
+        <span style="font-size: 17px;">案例演示</span>
+    </div>
+
+</div>
+<div id="fixedLocation2">
+    <div class="fixGroup hidden-xs" rel="2">
+        <span class="glyphicon glyphicon-comment fixedBtn"></span>
+        <span style="font-size: 17px;">联系我们</span>
+    </div>
+</div>
+<div class="visible-xs fixGroup-xs">
+    <span class="glyphicon glyphicon-comment"></span>
+</div>
+
+
+
+
+
+<!--MVP01的导航栏-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand" id="logoA"><img src="pic/logo.png" alt="logo" id="logo" class="img-responsive"></a>
+        <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mvpNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="mvpNavbar" style="position: relative;z-index: 100">
+        <ul class="nav navbar-nav" style="background: #f8f8f8;">
+            <li><a href="index.html" style="padding-top:13px;"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+            <li><a href="#">我们是谁</a></li>
+            <li><a href="plan.html">解决方案</a></li>
+            <li><a href="usage.html">如何使用</a></li>
+            <li><a href="join.html">加入我们</a></li>
+            <li><a href="#" id="login"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<!--第一片区域-->
+<section style="margin-top: 90px;margin-bottom: 40px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12" style="margin-top: 40px;">
+                <p class="firstP">实现您关于产品的一切想象</p>
+            </div>
+            <div class="col-md-6 hidden-xs">
+
+                <img src="pic/instance/Big.svg" class="pull-right">
+            </div>
+        </div>
+    </div>
+</section>
+<div class="centerLine">
+    <a href="#solve"><span class="centerWord">解决方案</span></a>
+    <a href="#instance"><span class="centerWord">案例演示</span></a>
+</div>
+<!--第一片区域结束-->
+<!--解决方案-->
+<section style="background: #f7f7f7;" id="solve">
+    <div class="container" style="padding-top: 100px">
+        <!--第一行-->
+        <div class="row" style="margin-bottom: 190px;">
+            <div class="col-md-12 col-xs-12 planTitle">
+                <p class="secondP"><span class="glyphicon glyphicon-book"></span>解决方案</p>
+                <p class="thirdP">MVP01在多种平台的解决方案</p>
+            </div>
+        </div>
+        <!--第二行-->
+        <div class="row">
+            <div class="col-md-6 col-xs-12" style="">
+
+                <div class="tag" style="">
+                    <div class="tagHead tagHChar"><img src="pic/solution_app.png" alt="App plan" class="planPic"></div>
+                    <p class="forthP">App开发</p>
+                    <p class="fifthP">
+                        基于iOS、Android、Windows Phone平台帮助您开发各类App。
+                        涵盖资讯、社交、电商、视频、音乐、本地服务、企业服务、
+                        互联网金融等各个领域。项目开发过程包括：需求分析、交互设计、
+                        UI设计、客户端开发、后台API开发、后台业务管理开发、项目测试验收、
+                        项目部署、后期质保。同时也会跟进您项目具体需求直接从某个过程阶段开始，
+                        比如您项目已经有了交互设计，那我们直接从UI设计开始。
+                        整个项目过程都可以通过本平台的项目管理系统进行跟踪，开发到Beta版内测阶段，
+                        直接可以在平台下载内测版App进行安装直接体验开发成果。
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+
+                <div class="tag" style="">
+                    <div class="tagHead tagHChar"><img src="pic/solution_website.png" alt="website plan"
+                                                       class="planPic"></div>
+                    <p class="forthP">网站&H5开发</p>
+                    <p class="fifthP">
+                        基于Nginx、Apache、Rails 等流行Web框架，
+                        搭配Tomcat、Resin等动态Web容器，
+                        使用Java、PHP、Ruby、Node.js技术实现业务逻辑，
+                        数据库建议使用MySQL、PostgreSQL、MongoDB等常用数据库产品，
+                        并基于Boot strap等前端框架实现页面响应式展示。
+                        跟进您项目需求酌情考虑是否需要就SSL安全访问，
+                        网站素材文件建议使用云存储CDN解决方案。项目开发过程包括：
+                        需求分析、交互设计、UI设计、前端界面开发、后台逻辑实现、
+                        项目测试验收、项目部署、
+                        后期质保。前端静态界面开发完毕后，可以在线实时浏览仿真页面效果。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--第三行-->
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <div class="tag">
+                    <div class="tagHead  tagHChar"><img src="pic/solution_wechat.png" alt="wechat plan" class="planPic">
+                    </div>
+                    <p class="forthP">微信开发</p>
+                    <p class="fifthP">
+                        基于微信平台可实现订阅号、服务号、企业号和应用号开发产品。
+                        为了使用微信提供的更多接口，建议您的微信公众号实现加V认证，
+                        保证产品具有更好的体验。可实现微信支付、调用微信JS-SDK、
+                        微信消息模版、消息管理、用户管理、微信门店、微信多客服、
+                        微信摇一摇等定制开发。主要用到后台技术（与网站开发用到的技术类似），
+                        业务逻辑功能可能会多余前端页面展示。微信的服务号、
+                        应用号和企业号较为适合进行定制化开发，
+                        开发中可以通过测试公众号进行实时体验开发成果，与真实体验十分相似。
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="tag">
+                    <div class="tagHead tagHChar"><img src="pic/solution_iot.png" alt="iot plan" class="planPic"></div>
+                    <p class="forthP">IoT(物联网)</p>
+                    <p class="fifthP">
+                        未来大部分设备都将智能化，不仅产生数据而且消费数据。
+                        尤其是通过互联网进行连接的各种各样的嵌入式传感器、
+                        设备及系统。特别是智能可穿戴设备、智能称、智能空气净化器、
+                        智能摄像头、智能路由器、智能家居等，这些设备与现有的智能手机配合使用，
+                        基于可方便管理、可实时监控，以及良好的用户交互形式（如文字、语音），
+                        给用户带来极大的便利，这些智能设备和系统深入人们的每一处生活当中，记录、
+                        分析再回馈给用户本身。因为涉及范围很广，
+                        所以我们会依据您项目的需求给你定制化解决方案。
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!--第四行-->
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+
+                <div class="tag">
+                    <div class="tagHead  tagHChar"><img src="pic/solution_bots.png" alt="bots plan" class="planPic">
+                    </div>
+                    <p class="forthP">聊天机器人</p>
+                    <p class="fifthP">
+                        基于AI技术解决客服、金融、生活服务并结合微信和支付宝支付实现即时聊天机器人，
+                        帮您的产品实现良好的用户体验。可实现依据自己的业务建立知识库，
+                        让业务在对话中快速运转起来，可实现文字和语言的交互，让用户体验更加自然。
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="tag">
+                    <div class="tagHead tagHChar"><img src="pic/solution_vrar.png" alt="VR/AR plan" class="planPic">
+                    </div>
+                    <p class="forthP">VR/AR</p>
+                    <p class="fifthP">
+                        基于虚拟现实 （V R） 、增强现实 （A R） 构建具体场景应用，如：互动游戏、虚拟旅行、室内设计、互动娱乐等增强立体可视感应用。
+                        极大地提高用户在业务中的实际体验，
+                        把用户带入到一个更加立体化、更加真实的场景中去。
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!--解决方案结束-->
+<!--案例展示-->
+<section style="padding-top: 90px;" id="instance">
+    <div class="container" style="padding-top: 10px">
+        <!--第一行-->
+        <div class="row rowHeight">
+            <div class="col-md-12 col-xs-12 planTitle">
+                <p class="secondP"><span class="glyphicon glyphicon-list"></span>案例演示</p>
+                <p class="thirdP">MVP01诞生的有趣产品。</p>
+            </div>
+        </div>
+
+        <!--第二行-->
+        <div class="row rowHeight">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <p class="instanceTitle">悠悠小秘</p>
+                <h4 style="margin: 0">私人秘书服务</h4>
+
+                <p class="fifthP" style="margin: 30px 0 30px 0;">中国版Magic，基于自然的沟通对话获得需要的服务，
+                    只要您一句话即可获得所需要的一切合法服务。</p>
+                <table class="table-responsive table-condense tableIns">
+                    <tbody>
+                    <tr class="trIns">
+                        <td class="tdIns">开发者数:</td>
+                        <td class="tdIns"> 4人</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">花费时间:</td>
+                        <td class="tdIns">3个月</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">所用技能:</td>
+                        <td class="tdIns">java、Web、android、iOS</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
+                <div style="width: 206px;height: auto;position: relative;">
+                    <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
+                    <div class="carousel slide" id="slideTow" style="position: absolute;top: 60px;left: 28px;">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideTow" data-slide-to="0" class="active"></li>
+                            <li data-target="#slideTow" data-slide-to="1"></li>
+                            <li data-target="#slideTow" data-slide-to="2"></li>
+                            <li data-target="#slideTow" data-slide-to="3"></li>
+                            <li data-target="#slideTow" data-slide-to="4"></li>
+
+                        </ol>
+                        <div class="carousel-inner" style="width: 150px;">
+                            <div class="item active">
+                                <img src="pic/instance/yoyoxiaomi1.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/yoyoxiaomi2.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/yoyoxiaomi3.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/yoyoxiaomi4.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/yoyoxiaomi5.png" class="phonePic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div style="width: 100%; border: 1px dashed gray;"></div>
+        <!--第三行-->
+        <div class="row rowHeight">
+            <div class="col-md-6 col-xs-12">
+                <p class="instanceTitle">DDay App</p>
+                <h4 style="margin: 0">与全球创新面对面</h4>
+
+                <p class="fifthP" style="margin: 30px 0 30px 0;">致力于推进中国商业与全球社区的深度交流及创新融合。
+                    让具有前瞻视野的中国企业家与全球商业领导面对面，交融思想与资源。</p>
+                <table class="table-responsive table-condense tableIns">
+                    <tbody>
+                    <tr class="trIns">
+                        <td class="tdIns">开发者数:</td>
+                        <td class="tdIns"> 2人</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">花费时间:</td>
+                        <td class="tdIns">2个月</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">所用技能:</td>
+                        <td class="tdIns">iOS, Web</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-6 col-xs-12 " style="padding-bottom: 38px;">
+                <div class="pull-right floatRight" style="width: 206px;height: auto;position: relative;">
+                    <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
+                    <div class="carousel slide" id="slideThree" style="position: absolute;top: 60px;left: 28px;">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideThree" data-slide-to="0" class="active"></li>
+                            <li data-target="#slideThree" data-slide-to="1"></li>
+                            <li data-target="#slideThree" data-slide-to="2"></li>
+
+                        </ol>
+                        <div class="carousel-inner" style="width: 150px;">
+                            <div class="item active">
+                                <img src="pic/instance/dday1.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/dday2.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/dday3.png" class="phonePic">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div style="width: 100%; border: 1px dashed gray;"></div>
+        <!--第四行-->
+        <div class="row rowHeight">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <p class="instanceTitle">DDay Web</p>
+                <h4 style="margin: 0">英文网站</h4>
+
+                <p class="fifthP" style="margin: 30px 0 30px 0;">向国外的科技企业提供投资咨询服务，
+                    将国内的投资机构介绍给国外的科技公司。</p>
+                <table class="table-responsive table-condense tableIns">
+                    <tbody>
+                    <tr class="trIns">
+                        <td class="tdIns">开发者数:</td>
+                        <td class="tdIns"> 2人</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">花费时间:</td>
+                        <td class="tdIns">一周</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">所用技能:</td>
+                        <td class="tdIns">HTML, CSS</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
+                <div style="position: relative;" class="pcChar">
+                    <img src="pic/instance/laptop-illustration.svg" style="width: 100%;height:100%;">
+                    <div class="carousel slide" id="slideFour" style="">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideFour" data-slide-to="0" class="active"></li>
+                            <li data-target="#slideFour" data-slide-to="1"></li>
+                            <li data-target="#slideFour" data-slide-to="2"></li>
+
+
+                        </ol>
+                        <div class="carousel-inner pcPic">
+                            <div class="item active">
+                                <img src="pic/instance/ddayweb1.png"  >
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/ddayweb2.png"  >
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/ddayweb3.png"  >
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div style="width: 100%; border: 1px dashed gray;"></div>
+        <!--第五行-->
+        <div class="row rowHeight" style="margin-bottom: 80px;">
+            <div class="col-md-6 col-xs-12">
+                <p class="instanceTitle">快约星(微信)</p>
+                <h4 style="margin: 0">移动互联网线上全明星经纪平台</h4>
+
+                <p class="fifthP" style="margin: 30px 0 30px 0;">
+                    帮助企业机构快速找到合作意向的明星，是新一代的经纪人平台。</p>
+                <table class="table-responsive table-condense tableIns">
+                    <tbody>
+                    <tr class="trIns">
+                        <td class="tdIns">开发者数:</td>
+                        <td class="tdIns"> 3人</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">花费时间:</td>
+                        <td class="tdIns">1.5个月</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">所用技能:</td>
+                        <td class="tdIns">Java, HTML, CSS, JS</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-6 col-xs-12 " style="padding-bottom: 38px;">
+                <div class="pull-right floatRight" style="width: 206px;height: auto;position: relative;">
+                    <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
+                    <div class="carousel slide" id="slideFive" style="position: absolute;top: 60px;left: 28px;">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideFive" data-slide-to="0" class="active"></li>
+                            <li data-target="#slideFive" data-slide-to="1"></li>
+                            <li data-target="#slideFive" data-slide-to="2"></li>
+                            <li data-target="#slideFive" data-slide-to="3"></li>
+                            <li data-target="#slideFive" data-slide-to="4"></li>
+
+
+                        </ol>
+                        <div class="carousel-inner" style="width: 150px;">
+                            <div class="item active">
+                                <img src="pic/instance/estart1.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/estart2.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/estart3.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/estart4.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/estart5.png" class="phonePic">
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div style="width: 100%; border: 1px dashed gray;"></div>
+        <!--第六行-->
+        <div class="row rowHeight" style="margin-bottom: 80px;">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <p class="instanceTitle">成就校园</p>
+                <h4 style="margin: 0">一款供在校学生使用的激励成就APP</h4>
+
+                <p class="fifthP" style="margin: 30px 0 30px 0;">在线大学生通过此系统与自己学习生活结合，
+                    包括作业、实习、生活都可以以成就结合让在校生活更有趣。</p>
+                <table class="table-responsive table-condense tableIns">
+                    <tbody>
+                    <tr class="trIns">
+                        <td class="tdIns">开发者数:</td>
+                        <td class="tdIns"> 3人</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">花费时间:</td>
+                        <td class="tdIns">2个月</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">所用技能:</td>
+                        <td class="tdIns">java、Web、android</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
+                <div style="width: 206px;height: auto;position: relative;">
+                    <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
+                    <div class="carousel slide" id="slideSix" style="position: absolute;top: 60px;left: 28px;">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideSix" data-slide-to="0" class="active"></li>
+                            <li data-target="#slideSix" data-slide-to="1"></li>
+                            <li data-target="#slideSix" data-slide-to="2"></li>
+                            <li data-target="#slideSix" data-slide-to="3"></li>
+
+                        </ol>
+                        <div class="carousel-inner" style="width: 150px;">
+                            <div class="item active">
+                                <img src="pic/instance/campus1.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/campus2.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/campus3.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/campus4.png" class="phonePic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div style="width: 100%; border: 1px dashed gray;"></div>
+        <!--第七行-->
+        <div class="row rowHeight" style="margin-bottom: 80px;">
+            <div class="col-md-6 col-xs-12">
+                <p class="instanceTitle">六只脚 移动站</p>
+                <h4 style="margin: 0">户外线路</h4>
+
+                <p class="fifthP" style="margin: 30px 0 30px 0;">六只脚用最直观的方式在地图上记录着每个旅行者的足迹，
+                    为旅行者提供更适于展示、分享旅游故事的平台。</p>
+                <table class="table-responsive table-condense tableIns">
+                    <tbody>
+                    <tr class="trIns">
+                        <td class="tdIns">开发者数:</td>
+                        <td class="tdIns"> 2人</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">花费时间:</td>
+                        <td class="tdIns">3周</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">所用技能:</td>
+                        <td class="tdIns">HTML, CSS, JS</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-6 col-xs-12 " style="padding-bottom: 38px;">
+                <div class="pull-right floatRight" style="width: 206px;height: auto;position: relative;">
+                    <img src="pic/instance/phone-illustration.svg" style="width: 100%;height:100%;">
+                    <div class="carousel slide" id="slideSeven" style="position: absolute;top: 60px;left: 28px;">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideSeven" data-slide-to="0" class="active"></li>
+                            <li data-target="#slideSeven" data-slide-to="1"></li>
+                            <li data-target="#slideSeven" data-slide-to="2"></li>
+
+                        </ol>
+                        <div class="carousel-inner" style="width: 150px;">
+                            <div class="item active">
+                                <img src="pic/instance/foooooot1.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/foooooot2.png" class="phonePic">
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/foooooot3.png" class="phonePic">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div style="width: 100%; border: 1px dashed gray;"></div>
+        <!--第八行-->
+        <div class="row rowHeight" style="margin-bottom: 80px;">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <p class="instanceTitle">快约星 Web</p>
+                <h4 style="margin: 0">官方网站</h4>
+
+                <p class="fifthP" style="margin: 30px 0 30px 0;">帮助企业机构快速找到合作意向的明星，
+                    是新一代的经纪人平台。</p>
+                <table class="table-responsive table-condense tableIns">
+                    <tbody>
+                    <tr class="trIns">
+                        <td class="tdIns">开发者数:</td>
+                        <td class="tdIns"> 2人</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">花费时间:</td>
+                        <td class="tdIns">一周</td>
+                    </tr>
+                    <tr class="trIns">
+                        <td class="tdIns">所用技能:</td>
+                        <td class="tdIns">HTML, CSS</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12" style="padding-bottom: 38px;">
+                <div style="position: relative;" class="pcChar">
+                    <img src="pic/instance/laptop-illustration.svg" style="width: 100%;height:100%;">
+                    <div class="carousel slide" id="slideEight" style="">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideEight" data-slide-to="0" class="active"></li>
+                            <li data-target="#slideEight" data-slide-to="1"></li>
+                            <li data-target="#slideEight" data-slide-to="2"></li>
+
+
+                        </ol>
+                        <div class="carousel-inner pcPic">
+                            <div class="item active">
+                                <img src="pic/instance/estartweb1.png"  >
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/estartweb2.png"  >
+                            </div>
+                            <div class="item">
+                                <img src="pic/instance/estartweb3.png"  >
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--案例展示结束-->
+<!--底部-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div id="kaiqi-chanpin" class="col-md-12">
+                <p><span>开启您的产品</span><a class="create-project visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block" href="">创建项目</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <ul>
+                        <li>网站信息</li>
+                        <li><a class="footer-link" href="">我们是谁</a></li>
+                        <li><a class="footer-link" href="">完成案例</a></li>
+                        <li><a class="footer-link" href="">如何使用</a></li>
+                        <li><a class="footer-link" href="">合作伙伴</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6  col-xs-6">
+                    <ul>
+                        <li>服务信息</li>
+                        <li><a class="footer-link" href="">常见问题</a></li>
+                        <li><a class="footer-link" href="">使用条款</a></li>
+                        <li><a class="footer-link" href="">隐私协议</a></li>
+                        <li><a class="footer-link" href="">开票说明</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-sm visible-xs"></div>
+                <div class="col-md-3 col-sm-6  col-xs-6">
+                    <ul>
+                        <li>联系合作</li>
+                        <li><a class="footer-link" href="">邮箱: BD@MVP01.COM</a></li>
+                        <li><a class="footer-link" href="">电话: 010-84786625</a></li>
+                        <li><a class="footer-link" href="">官方博客: MVP01</a></li>
+                        <li><a class="footer-link" href="">加入我们</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6  col-xs-6">
+                    <ul>
+                        <li>公司地址</li>
+                        <li class="footer-link">北京市 朝阳区</li>
+                        <li class="footer-link">东亚望京中心A座</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p id="copyright" class="col-md-12">©2016 MVP01 京ICP备14038571号-3</p>
+            </div>
+        </div>
+    </footer>
+</section>
+
+<!--底部结束-->
+<script src="cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery.fixedClick.js"></script>
+<script>
+    $(function () {
+        $(".fixGroup").click(function () {
+            var rel = $(this).attr("rel");
+            if (rel == 0) {
+                location.href = "plan.html#solve";
+            }
+            else if (rel == 1) {
+                location.href = "plan.html#instance";
+
+            }
+            else {
+
+            }
+        });
+        $.pointClick(433,1833,2499,973);
+    });
+
+</script>
+</body>
+</html>

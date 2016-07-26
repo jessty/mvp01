@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 997.16669 695.83331" height="260" width="370">
+                        <defs>
+                            <clipPath id="a">
+                                <path d="M0 521.875h747.875V0H0v521.875z"></path>
+                            </clipPath>
+                        </defs>
+                        <path d="M594.308 659.833H402.57l5.276-43.486h181.186l5.276 43.486z" fill="#fff"></path>
+                        <path d="M594.308 659.833H402.57l5.276-43.486h181.186l5.276 43.486z" fill="none" stroke="#1dc9b1" stroke-width="5.33332" stroke-miterlimit="10"></path>
+                        <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 695.833)">
+                            <path d="M695.01 82.6H56.536V470.56H695.01V82.6zm9.88 416.926H44.678c-9.28 0-16.803-7.523-16.803-16.803V72.073c0-9.28 7.523-16.804 16.803-16.804H704.89c9.28 0 16.803 7.522 16.803 16.802v410.65c0 9.28-7.523 16.804-16.803 16.804" fill="#fff"></path>
+                            <path d="M695.01 82.6H56.536V470.56H695.01V82.6zm9.88 416.926H44.678c-9.28 0-16.803-7.523-16.803-16.803V72.073c0-9.28 7.523-16.804 16.803-16.804H704.89c9.28 0 16.803 7.522 16.803 16.802v410.65c0 9.28-7.523 16.804-16.803 16.804z" fill="none" stroke="#1dc9b1" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path d="M141.37 418.187v15a3 3 0 0 0 3 3H606.56a3 3 0 0 0 3-3v-15H141.37z" fill="#fff"></path>
+                            <path class="transparent animated vpc-svg delay-1 fadeIn" data-vp-add-class="fadeIn" d="M141.37 418.187v15a3 3 0 0 0 3 3H606.56a3 3 0 0 0 3-3v-15H141.37z" fill="none" stroke="#31e3be" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path class="transparent animated vpc-svg delay-1 fadeIn" data-vp-add-class="fadeIn" d="M315.453 386.177h-45.53v14.01h45.53v-14.01zM334.875 358.485h-45.53v14.01h45.53v-14.01zM452.375 358.485h-105.08v14.01h105.08v-14.01zM334.875 331.737h-45.53v14.01h45.53v-14.01zM402.79 331.737h-55.494v14.01h55.495v-14.01zM331.435 277.465h-45.53v14.01h45.53v-14.01zM408.902 277.465h-65.047v14.01h65.047v-14.01zM331.435 250.717h-45.53v14.01h45.53v-14.01zM429.374 250.717h-85.52v14.01h85.52v-14.01zM332.662 223.107h-45.53v14.01h45.53v-14.01zM430.602 223.107h-85.52v14.01h85.52v-14.01zM351.115 304.206h-45.53v14.01h45.53v-14.01zM439.046 304.206h-75.51v14.01h75.51v-14.01zM211.783 166.187H141.37v251.44h70.413v-251.44z" fill="#fff" stroke="#31e3be" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path d="M186.333 304.26l.726 2.152h20.59l.725-2.15h-22.042z" fill="#fff"></path>
+                            <path class="transparent animated vpc-svg delay-1 fadeIn" data-vp-add-class="fadeIn" d="M186.333 304.26l.726 2.152h20.59l.725-2.15h-22.042z" fill="none" stroke="#31e3be" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path d="M224.9 46.84c0-10.02-8.12-18.14-18.14-18.14H99.712c-10.018 0-18.14 8.12-18.14 18.14v239.63c0 10.018 8.122 18.14 18.14 18.14h107.052c10.017 0 18.14-8.122 18.14-18.14V46.84z" fill="#fff"></path>
+                            <path d="M224.9 46.84c0-10.02-8.12-18.14-18.14-18.14H99.712c-10.018 0-18.14 8.12-18.14 18.14v239.63c0 10.018 8.122 18.14 18.14 18.14h107.052c10.017 0 18.14-8.122 18.14-18.14V46.84z" fill="none" stroke="#1dc9b1" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path d="M150.98 37.99a9.535 9.535 0 0 0-9.535 9.537 9.536 9.536 0 1 0 9.536-9.536" fill="#fff"></path>
+                            <path d="M150.98 37.99a9.535 9.535 0 0 0-9.535 9.537 9.536 9.536 0 1 0 9.536-9.536z" fill="none" stroke="#1dc9b1" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path d="M211.648 67.91H95.223v195.983h116.425V67.91z" fill="#fff" stroke="#1dc9b1" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path class="transparent animated vpc-svg fadeIn" data-vp-add-class="fadeIn" d="M198.074 165.4h-89.676v83.404h89.676V165.4zM108.397 69.36v79.18h89.676V69.36" fill="#fff" stroke="#31e3be" stroke-width="4" stroke-miterlimit="10"></path>
+                            <path class="transparent animated vpc-svg delay-1 fadeIn" data-vp-add-class="fadeIn" d="M609.558 418.187V154.17h-383.67" fill="none" stroke="#31e3be" stroke-width="4" stroke-miterlimit="10"></path>
+                        </g>
+                    </svg>

@@ -1,0 +1,93 @@
+#conduct {
+
+}
+
+@media (max-width: 762px) {
+    .point {
+
+    }
+}
+
+@media (min-width: 764px) {
+    .point {
+        margin-left: 90px;
+    }
+}
+
+.point {
+    border: 1px solid #eee;
+
+    position: relative;
+    border-radius: 9px;
+    padding: 20px 20px 30px 10px;
+    box-shadow: -1px 0 5px #a9a9a9, 0 1px 0 #a9a9a9, 0 3px 5px #a9a9a9, 3px 0 5px #a9a9a9;
+}
+
+.triangle {
+    position: absolute;
+    top: 40px;
+    left: -51px;
+    border: 25px;
+    border-color: transparent #a6a6a6 transparent transparent;
+    border-style: dashed dashed solid dashed;
+    width: 0;
+    height: 0;
+    z-index: 150;
+}
+
+.triangle:after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -20px;
+    border: 23px;
+    border-color: transparent white transparent transparent;
+    border-style: dashed dashed solid dashed;
+    width: 0;
+    height: 0;
+    z-index: 50;
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    left: -120px;
+    top: 40px;
+    border: 1px solid black;
+    font-size: 33px;
+    border-radius: 50%;
+    background: green;
+    color: white;
+
+}
+
+.sixthP {
+    font-family: "Microsoft YaHei";
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.seventhP {
+    font-weight: 500;
+    font-size: 20px;
+    color: gray;
+
+}
+
+.rowHeight {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding: 20px;
+
+}
+caption{
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 17px;
+}
+.tableFont{
+    font-size: 15px;
+}
