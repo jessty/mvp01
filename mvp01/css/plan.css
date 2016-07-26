@@ -215,6 +215,11 @@
     overflow: hidden;
 
 }
+#whoweare-to-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+}
 #whoweare-to-info>a{
     font-size: 20px;
     font-weight: 600;
