@@ -91,3 +91,20 @@ caption{
 .tableFont{
     font-size: 15px;
 }
+#whoweare-to-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+}
+#whoweare-to-info>a{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 12px;
+    color: #5e5e5e;
+    text-decoration: none;
+}
+#whoweare-to-info>a:hover{
+
+    color: #1dc9b1;
+}
