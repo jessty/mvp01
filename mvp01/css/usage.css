@@ -3,7 +3,23 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+    }
+}
+
+@media (min-width: 764px) {
+    .point {
+        margin-left: 90px;
+    }
+}
+@media (min-width: 992px) {
+    .go-to-info{
+        margin-top: 130px;
+    }
+}
+>>>>>>> 04af5bc080b9a147e79f409fe7ef17ee93e881aa
 .point {
     border: 1px solid #eee;
 
@@ -82,21 +98,21 @@ caption{
 .tableFont{
     font-size: 15px;
 }
-#whoweare-to-info{
+.go-to-info{
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #fbfbfb;
 }
-#whoweare-to-info>a{
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    padding: 12px;
+.go-to-info>a{
+    padding-left: 12px;
+    padding-right: 12px;
     color: #5e5e5e;
     text-decoration: none;
 }
-#whoweare-to-info>a:hover{
-
+.go-to-info>a:hover{
     color: #1dc9b1;
 }
 @media (max-width: 773px) {
