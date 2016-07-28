@@ -1,19 +1,10 @@
 
-
-.index-sm-h{
-    padding-bottom: 5px;
-    border-bottom: solid 3px black;
-    font-weight: 400;
-    display: inline-block;
-}
-/*p{*/
-    /*padding-top: 20px;*/
-    /*padding-bottom: 15px;*/
-/*}*/
+/*导航栏下面的第一板块样式 start*/
 #first-part>div{
     padding-top: 50px;
     padding-bottom: 10px;
 }
+/*改写轮播底部指示ul，li样式*/
 .carousel-indicators{
     bottom: -50px;
     z-index: 1;
@@ -30,57 +21,54 @@
     background-color: #1dc9b1 !important;
     border-color: #1dc9b1;
 }
-#go-to-info{
-    padding-top: 30px;
-    padding-bottom: 30px;
+/*定义网页第一板块下方的锚链接样式*/
+.go-to-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 35px;
-
 }
-#go-to-info a{
+.go-to-info>a{
     color: #24cbb4;
+    padding-left: 12px;
+    padding-right: 12px;
 }
+/*导航栏下面的第一板块样式 end*/
+
+/*第二灰色板块样式 start*/
 .info-parts{
     padding-top: 40px;
     padding-bottom: 40px;
-}                       /*调整页面中间灰色区域里的三部分的上下间距*/
+}                       /*调整页面第二板块里的三部分的上下间距*/
 .info-parts>div:nth-child(1),.info-parts>div:nth-child(3){
     padding-top:20px;
 }
-
-
+.index-sm-h{            /*第二板块里的三部分的小标题*/
+    padding-bottom: 5px;
+    border-bottom: solid 3px black;
+    font-weight: 400;
+    display: inline-block;
+}
+/*改变“了解更多”a链接的样式*/
 .more-info{
     color: #1bbaa2;
     font-weight: 500;
-}                   /*改变“了解更多”链接的样式*/
+}
 .more-info:hover{
     color: #1bbaa2;
 }
-
-.img-responsive{
-    max-width: 80%;
-}
-
-
-
-
-
-
+/*第二灰色板块样式 end*/
 @media (max-width: 768px){
-
-    h1{
+    h1{                 /*网页顶部标题*/
         font-size: 27px;
     }
 }
-@media (min-width: 769px) {
-
-}
 @media (min-width: 992px) {
-
-    #go-to-info{
-        padding-top: 100px;
+    .go-to-info{        /*调整锚链接与第一板块的间距*/
+        margin-top: 130px;
     }
-    #first-part>div{
+
+    #first-part>div{    /*对第二板块的响应式调整*/
         padding-top: 180px;
     }
     .info-parts{

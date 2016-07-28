@@ -1,15 +1,10 @@
-
-/*p{*/
-    /*padding-top: 20px;*/
-    /*padding-bottom: 15px;*/
-    /*color: #5e5e5e;*/
-    /*line-height:180%;*/
-/*}*/
+/*导航栏下面的第一板块 start*/
 #first-part>div{
     padding-top: 50px;
     padding-bottom: 10px;
 }
-blockquote{
+
+blockquote{/*设置引言*/
     border-left: none;
     padding: 20px 0px 0px 0px;
 }
@@ -17,24 +12,29 @@ blockquote{
     text-align: right;
     padding-right: 10px;
 }
-#whoweare-to-info{
+/*定义网页第一板块下方的锚链接样式*/
+.go-to-info{
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #fbfbfb;
 }
-#whoweare-to-info>a{
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    padding: 12px;
+.go-to-info>a{
+    padding-left: 12px;
+    padding-right: 12px;
     color: #5e5e5e;
     text-decoration: none;
 }
-#whoweare-to-info>a:hover{
+.go-to-info>a:hover{
+     color: #1dc9b1;
+ }
+/*定义网页第一板块下方的锚链接样式*/
+/*导航栏下面的第一板块样式 end*/
 
-    color: #1dc9b1;
-}
 
+/*第二板块之一--“开发者们”样式 start*/
 #developer{
     background-color: #f7f7f7;
 }
@@ -42,6 +42,7 @@ blockquote{
     padding-top: 80px;
     padding-bottom:80px;
 }
+/*“开发者们”和“MVP01”两小标题样式*/
 .info-title1{
     font-size: 24px;
     color: #1dc9b1;
@@ -50,19 +51,23 @@ blockquote{
     border-bottom: 4px solid #1dc9b1;
     display: inline-block;
 }
+/*“开发者们”和“MVP01”两小标题下方标题样式*/
 .info-title2{
     color: #757575;
     line-height: 145%;
     padding-bottom: 80px;
 }
+
+
+/*开发者动画展示部分样式 start*/
 .mvp01ers-show{
     height: 1530px;
 }
-.mvp01ers-show>div{
-    height: 750px;
+.mvp01ers{
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-
-
+/*动画展示卡片样式*/
 .mvp01er>div{
     padding: 40px;
     margin-top: 60px;
@@ -79,7 +84,7 @@ blockquote{
     font-weight: 500;
 }
 
-/*mvp01er的翻转动画*/
+/*mvp01er的翻转动画一*/
 @keyframes reversal1 {
     0%{transform: rotateY(0deg);}
     45%{transform: rotateY(0deg);}
@@ -87,6 +92,7 @@ blockquote{
     95%{ transform: rotateY(180deg);}
     100%{ transform: rotateY(360deg);}
 }
+/*兼容浏览器*/
 @-webkit-keyframes reversal1 {
     0%{transform: rotateY(0deg);}
     45%{transform: rotateY(0deg);}
@@ -94,7 +100,7 @@ blockquote{
     95%{ transform: rotateY(180deg);}
     100%{ transform: rotateY(360deg);}
 }
-
+/*mvp01er的翻转动画二*/
 @keyframes reversal2 {
     0%{transform: rotateY(0deg);}
     40%{ transform: rotateY(0deg);}
@@ -102,6 +108,7 @@ blockquote{
     90%{ transform: rotateY(180deg);}
     100%{ transform: rotateY(360deg);}
 }
+/*兼容浏览器*/
 @-webkit-keyframes reversal2 {
     0%{transform: rotateY(0deg);}
     40%{ transform: rotateY(0deg);}
@@ -109,7 +116,8 @@ blockquote{
     90%{ transform: rotateY(180deg);}
     100%{ transform: rotateY(360deg);}
 }
-/*给不同mvp01er卡片设置不同的动画*/
+
+/*给不同mvp01er卡片设置不同时间间隔的动画*/
 .mvp01ers-show>div:nth-child(1)>.mvp01er{
     animation: reversal1 20s 1s infinite;
     -webkit-animation:  reversal1 20s 1s infinite;
@@ -134,10 +142,12 @@ blockquote{
     animation: reversal2 20s 9s infinite;
     -webkit-animation:  reversal2 20s 9s infinite;
 }
+
 .mvp01er{
     transform-style: preserve-3d;
     position: relative;
 }
+/*动画中交替出现的前后两层图片的div*/
 .front,.back{
     backface-visibility: hidden;
     position: absolute;
@@ -148,51 +158,74 @@ blockquote{
 .back{
     transform: rotateY(180deg);
 }
+/*开发者动画展示部分样式 end*/
 
-
+/*“开发者们”板块底部合作伙伴 图片样式*/
 .dev-img{
     padding-top: 23px;
     padding-right: 70px;
 }
-/*#mvp01-p{*/
-    /*color: #757575;*/
-    /*line-height: 175%;*/
-/*}*/
+/*第二板块之一--“开发者们”样式 end*/
+
+/*第二板块之二--“MVP01”p段落样式 start*/
 #mvp01-p span{
     color: #000;
     line-height: 270%;
     font-weight: 500;
 }
+/*第二板块之二--“MVP01”样式 end*/
+
+/*“开启您的产品”部分样式 start*/
 #kaiqi-chanpin-wrap{
     background-color: #f7f7f7;
 }
-@media (max-width: 768px) {
-    h1{
+/*“开启您的产品”部分样式 end*/
+
+
+@media (max-width: 767px) {
+
+    h1{                 /*网页顶部标题*/
         font-size: 27px;
     }
     .mvp01ers-show{
-        height: 3600px;
+        height: 3150px;
     }
     .mvp01ers-show>div{
-        height: 700px;
+        height: 600px;
     }
 }
 
-@media (min-width: 769px) {
-    .dev-img{
+@media (min-width: 768px) {
+    .mvp01ers-show{
+        height: 2020px;
+    }
+    .mvp01ers-show>div{
+        height: 660px;
+    }
+    .dev-img{           /*“开发者们”板块底部合作伙伴 图片样式*/
         padding-top: 40px;
         padding-right: 120px;
     }
+
 }
 @media (min-width: 992px){
-    #first-part>div{            /*public css*/
+    #first-part>div{
         padding-top: 180px;
+    }
+    .go-to-info{                 /*锚链接样式*/
+        margin-top: 130px;
     }
     #mvp01,#developer>.container{
         padding-top: 150px;
         padding-bottom:150px;
     }
-    .dev-img{
+    .mvp01ers-show{
+        height: 1560px;
+    }
+    .mvp01ers-show>div{
+        height: 750px;
+    }
+    .dev-img{           /*“开发者们”板块底部合作伙伴 图片样式*/
         padding-top: 23px;
         padding-right: 70px;
     }

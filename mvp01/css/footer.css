@@ -1,3 +1,4 @@
+/*“开启您的产品”公共部分样式 */
 #kaiqi-chanpin{
     padding-bottom: 60px;
     padding-top: 60px;
@@ -55,6 +56,8 @@ footer .row:first-child>.col-md-3{
     }
 
 }
+
+/*各网页蓝色大按钮公共样式*/
 .create-project{
     margin-top: 20px;
     padding: 30px 20px;
